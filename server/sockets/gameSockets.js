@@ -1,4 +1,4 @@
-module.exports = (socket, io) => {
+export default function(socket, io){
     socket.on('move', (data) => {
         socket.broadcast.emit('move', data);
     });

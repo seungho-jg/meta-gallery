@@ -1,0 +1,6 @@
+{
+    "watch": ["public"],
+    "ext": "js",
+    "ignore": [],
+    "exec": "babel-node server/server.js"
+  }
